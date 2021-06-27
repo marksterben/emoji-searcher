@@ -1,4 +1,4 @@
-export const searchEmojis = (emojisData, searchText = '', maxResults = 24) => {
+export const searchEmojis = (emojisData, searchText = '', maxResults = 18) => {
   const searchEmojisBySearchText = emojisData.filter(emoji => {
     if (emoji.title.toLowerCase().includes(searchText.toLowerCase())) {
       return true;
