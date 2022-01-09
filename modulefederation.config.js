@@ -3,7 +3,7 @@ const { dependencies } = require("./package.json");
 module.exports = {
   name: "emoji",
   exposes: {
-    "./emoji": "./src/App",
+    "./Emoji": "./src/App",
   },
   filename: "remoteEntry.js",
   shared: {
