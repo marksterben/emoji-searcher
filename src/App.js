@@ -16,7 +16,7 @@ const App = () => {
   const getData = async () => {
     setLoading(true);
     try {
-      const res = await axios.get('https://run.mocky.io/v3/fe964130-70d0-430f-b839-e55081423c28');
+      const res = await axios.get('https://run.mocky.io/v3/5a982f64-218d-45d7-a380-ebe924d55631');
 
       setEmojisData(res.data);
       setLoading(false);
